@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C07D39D126D48E000BE8A35 /* ChipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C07D39C126D48E000BE8A35 /* ChipView.m */; };
+		A77E59241298867200F39BA9 /* FourInARowGame.m in Sources */ = {isa = PBXBuildFile; fileRef = A77E59221298867200F39BA9 /* FourInARowGame.m */; };
+		A77E59251298867200F39BA9 /* FourInARowGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A77E59231298867200F39BA9 /* FourInARowGameTests.m */; };
+		A77E59371298868000F39BA9 /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A77E59271298868000F39BA9 /* blueButton.png */; };
+		A77E59381298868000F39BA9 /* board_314.png in Resources */ = {isa = PBXBuildFile; fileRef = A77E59281298868000F39BA9 /* board_314.png */; };
+		A77E59391298868000F39BA9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A77E59291298868000F39BA9 /* Default.png */; };
+		A77E593A1298868000F39BA9 /* GrayChip_40.png in Resources */ = {isa = PBXBuildFile; fileRef = A77E592A1298868000F39BA9 /* GrayChip_40.png */; };
+		A77E593B1298868000F39BA9 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = A77E592B1298868000F39BA9 /* Icon-72.png */; };
+		A77E593C1298868000F39BA9 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A77E592C1298868000F39BA9 /* Icon.png */; };
+		A77E593D1298868000F39BA9 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A77E592D1298868000F39BA9 /* Icon@2x.png */; };
+		A77E593E1298868000F39BA9 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = A77E592E1298868000F39BA9 /* iTunesArtwork.png */; };
+		A77E593F1298868000F39BA9 /* RedChip_40.png in Resources */ = {isa = PBXBuildFile; fileRef = A77E592F1298868000F39BA9 /* RedChip_40.png */; };
+		A77E59401298868000F39BA9 /* whiteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A77E59301298868000F39BA9 /* whiteButton.png */; };
+		A77E59411298868000F39BA9 /* YellowChip_40.png in Resources */ = {isa = PBXBuildFile; fileRef = A77E59311298868000F39BA9 /* YellowChip_40.png */; };
+		A77E59421298868000F39BA9 /* backGroundiPhonePortrait.png in Resources */ = {isa = PBXBuildFile; fileRef = A77E59331298868000F39BA9 /* backGroundiPhonePortrait.png */; };
+		A77E59431298868000F39BA9 /* chipDrop.wav in Resources */ = {isa = PBXBuildFile; fileRef = A77E59341298868000F39BA9 /* chipDrop.wav */; };
+		A77E59441298868000F39BA9 /* resetSound.aif in Resources */ = {isa = PBXBuildFile; fileRef = A77E59351298868000F39BA9 /* resetSound.aif */; };
+		A77E59451298868000F39BA9 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = A77E59361298868000F39BA9 /* win.wav */; };
+		A77E59471298868B00F39BA9 /* FourInARowTestBoards.plist in Resources */ = {isa = PBXBuildFile; fileRef = A77E59461298868B00F39BA9 /* FourInARowTestBoards.plist */; };
+		A77E59481298868B00F39BA9 /* FourInARowTestBoards.plist in Resources */ = {isa = PBXBuildFile; fileRef = A77E59461298868B00F39BA9 /* FourInARowTestBoards.plist */; };
+		A79A713B126CE88900739A9F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A79A713A126CE88900739A9F /* UIKit.framework */; };
+		A79A713D126CE88900739A9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A79A713C126CE88900739A9F /* Foundation.framework */; };
+		A79A713F126CE88900739A9F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A79A713E126CE88900739A9F /* CoreGraphics.framework */; };
+		A79A7144126CE88900739A9F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A79A7142126CE88900739A9F /* InfoPlist.strings */; };
+		A79A7146126CE88900739A9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A79A7145126CE88900739A9F /* main.m */; };
+		A79A7149126CE88900739A9F /* FourAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A79A7148126CE88900739A9F /* FourAppDelegate.m */; };
+		A79A714C126CE88900739A9F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A79A714A126CE88900739A9F /* MainWindow.xib */; };
+		A79A714F126CE88900739A9F /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A79A714E126CE88900739A9F /* FourViewController.m */; };
+		A79A7152126CE88900739A9F /* FourViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A79A7150126CE88900739A9F /* FourViewController.xib */; };
+		A79A7168126CE8A800739A9F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A79A7167126CE8A800739A9F /* Cocoa.framework */; };
+		A79A716D126CE8A800739A9F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A79A716B126CE8A800739A9F /* InfoPlist.strings */; };
+		A79A717A126CE90500739A9F /* FourInARowGame.m in Sources */ = {isa = PBXBuildFile; fileRef = A79A7179126CE90500739A9F /* FourInARowGame.m */; };
+		A79A7181126CE9DB00739A9F /* FourInARowGame.m in Sources */ = {isa = PBXBuildFile; fileRef = A79A7179126CE90500739A9F /* FourInARowGame.m */; };
+		A7B7001D126EBCFB007545FF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B7001C126EBCFB007545FF /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9C07D39B126D48E000BE8A35 /* ChipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChipView.h; sourceTree = "<group>"; };
+		9C07D39C126D48E000BE8A35 /* ChipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChipView.m; sourceTree = "<group>"; };
+		A77E59221298867200F39BA9 /* FourInARowGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourInARowGame.m; sourceTree = "<group>"; };
+		A77E59231298867200F39BA9 /* FourInARowGameTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourInARowGameTests.m; sourceTree = "<group>"; };
+		A77E59271298868000F39BA9 /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButton.png; sourceTree = "<group>"; };
+		A77E59281298868000F39BA9 /* board_314.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board_314.png; sourceTree = "<group>"; };
+		A77E59291298868000F39BA9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A77E592A1298868000F39BA9 /* GrayChip_40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GrayChip_40.png; sourceTree = "<group>"; };
+		A77E592B1298868000F39BA9 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		A77E592C1298868000F39BA9 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		A77E592D1298868000F39BA9 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		A77E592E1298868000F39BA9 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		A77E592F1298868000F39BA9 /* RedChip_40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RedChip_40.png; sourceTree = "<group>"; };
+		A77E59301298868000F39BA9 /* whiteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteButton.png; sourceTree = "<group>"; };
+		A77E59311298868000F39BA9 /* YellowChip_40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YellowChip_40.png; sourceTree = "<group>"; };
+		A77E59331298868000F39BA9 /* backGroundiPhonePortrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backGroundiPhonePortrait.png; sourceTree = "<group>"; };
+		A77E59341298868000F39BA9 /* chipDrop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chipDrop.wav; sourceTree = "<group>"; };
+		A77E59351298868000F39BA9 /* resetSound.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = resetSound.aif; sourceTree = "<group>"; };
+		A77E59361298868000F39BA9 /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
+		A77E59461298868B00F39BA9 /* FourInARowTestBoards.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FourInARowTestBoards.plist; sourceTree = "<group>"; };
+		A79A7137126CE88900739A9F /* Four.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Four.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A79A713A126CE88900739A9F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A79A713C126CE88900739A9F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A79A713E126CE88900739A9F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A79A7140126CE88900739A9F /* Four-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Four-Info.plist"; sourceTree = "<group>"; };
+		A79A7141126CE88900739A9F /* Four_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Four_Prefix.pch; sourceTree = "<group>"; };
+		A79A7143126CE88900739A9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A79A7145126CE88900739A9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A79A7147126CE88900739A9F /* FourAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourAppDelegate.h; sourceTree = "<group>"; };
+		A79A7148126CE88900739A9F /* FourAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourAppDelegate.m; sourceTree = "<group>"; };
+		A79A714B126CE88900739A9F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		A79A714D126CE88900739A9F /* FourViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		A79A714E126CE88900739A9F /* FourViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		A79A7151126CE88900739A9F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FourViewController.xib; sourceTree = "<group>"; };
+		A79A7166126CE8A800739A9F /* FourTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FourTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A79A7167126CE8A800739A9F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A79A7169126CE8A800739A9F /* FourTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FourTests-Info.plist"; sourceTree = "<group>"; };
+		A79A716A126CE8A800739A9F /* FourTests_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourTests_Prefix.pch; sourceTree = "<group>"; };
+		A79A716C126CE8A800739A9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A79A7178126CE90500739A9F /* FourInARowGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FourInARowGame.h; path = ../FourInARowGame.h; sourceTree = "<group>"; };
+		A79A7179126CE90500739A9F /* FourInARowGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FourInARowGame.m; path = ../FourInARowGame.m; sourceTree = "<group>"; };
+		A79A717B126CE9B300739A9F /* FourInARowGameTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourInARowGameTests.h; sourceTree = "<group>"; };
+		A7B7001C126EBCFB007545FF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AudioToolbox.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A79A7134126CE88900739A9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B7001D126EBCFB007545FF /* AudioToolbox.framework in Frameworks */,
+				A79A713B126CE88900739A9F /* UIKit.framework in Frameworks */,
+				A79A713D126CE88900739A9F /* Foundation.framework in Frameworks */,
+				A79A713F126CE88900739A9F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79A7162126CE8A800739A9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79A7168126CE8A800739A9F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A77E59261298868000F39BA9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A77E59271298868000F39BA9 /* blueButton.png */,
+				A77E59281298868000F39BA9 /* board_314.png */,
+				A77E59291298868000F39BA9 /* Default.png */,
+				A77E592A1298868000F39BA9 /* GrayChip_40.png */,
+				A77E592B1298868000F39BA9 /* Icon-72.png */,
+				A77E592C1298868000F39BA9 /* Icon.png */,
+				A77E592D1298868000F39BA9 /* Icon@2x.png */,
+				A77E592E1298868000F39BA9 /* iTunesArtwork.png */,
+				A77E592F1298868000F39BA9 /* RedChip_40.png */,
+				A77E59301298868000F39BA9 /* whiteButton.png */,
+				A77E59311298868000F39BA9 /* YellowChip_40.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		A77E59321298868000F39BA9 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				A77E59331298868000F39BA9 /* backGroundiPhonePortrait.png */,
+				A77E59341298868000F39BA9 /* chipDrop.wav */,
+				A77E59351298868000F39BA9 /* resetSound.aif */,
+				A77E59361298868000F39BA9 /* win.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		A79A7128126CE88800739A9F = {
+			isa = PBXGroup;
+			children = (
+				A79A712F126CE88900739A9F /* Classes */,
+				A79A7130126CE88900739A9F /* Other Sources */,
+				A79A7131126CE88900739A9F /* Resources */,
+				A79A7132126CE88900739A9F /* Frameworks */,
+				A79A7138126CE88900739A9F /* Products */,
+				A79A715C126CE8A800739A9F /* FourTests */,
+			);
+			sourceTree = "<group>";
+		};
+		A79A712F126CE88900739A9F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A79A7175126CE8C600739A9F /* Unit Tests */,
+				A79A7178126CE90500739A9F /* FourInARowGame.h */,
+				A79A7179126CE90500739A9F /* FourInARowGame.m */,
+				A79A7147126CE88900739A9F /* FourAppDelegate.h */,
+				9C07D39B126D48E000BE8A35 /* ChipView.h */,
+				9C07D39C126D48E000BE8A35 /* ChipView.m */,
+				A79A7148126CE88900739A9F /* FourAppDelegate.m */,
+				A79A714D126CE88900739A9F /* FourViewController.h */,
+				A79A714E126CE88900739A9F /* FourViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A79A7130126CE88900739A9F /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A79A7141126CE88900739A9F /* Four_Prefix.pch */,
+				A79A7145126CE88900739A9F /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		A79A7131126CE88900739A9F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A77E59261298868000F39BA9 /* Images */,
+				A77E59321298868000F39BA9 /* Sounds */,
+				A79A7140126CE88900739A9F /* Four-Info.plist */,
+				A79A7142126CE88900739A9F /* InfoPlist.strings */,
+				A79A714A126CE88900739A9F /* MainWindow.xib */,
+				A79A7150126CE88900739A9F /* FourViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A79A7132126CE88900739A9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7B7001C126EBCFB007545FF /* AudioToolbox.framework */,
+				A79A713A126CE88900739A9F /* UIKit.framework */,
+				A79A713C126CE88900739A9F /* Foundation.framework */,
+				A79A713E126CE88900739A9F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A79A7138126CE88900739A9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A79A7137126CE88900739A9F /* Four.app */,
+				A79A7166126CE8A800739A9F /* FourTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A79A715C126CE8A800739A9F /* FourTests */ = {
+			isa = PBXGroup;
+			children = (
+				A79A715D126CE8A800739A9F /* Classes */,
+				A79A715E126CE8A800739A9F /* Other Sources */,
+				A79A715F126CE8A800739A9F /* Resources */,
+				A79A7160126CE8A800739A9F /* Frameworks */,
+			);
+			path = FourTests;
+			sourceTree = "<group>";
+		};
+		A79A715D126CE8A800739A9F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A79A715E126CE8A800739A9F /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A79A716A126CE8A800739A9F /* FourTests_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		A79A715F126CE8A800739A9F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A79A7169126CE8A800739A9F /* FourTests-Info.plist */,
+				A79A716B126CE8A800739A9F /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A79A7160126CE8A800739A9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A79A7167126CE8A800739A9F /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A79A7175126CE8C600739A9F /* Unit Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A77E59461298868B00F39BA9 /* FourInARowTestBoards.plist */,
+				A79A717B126CE9B300739A9F /* FourInARowGameTests.h */,
+				A77E59221298867200F39BA9 /* FourInARowGame.m */,
+				A77E59231298867200F39BA9 /* FourInARowGameTests.m */,
+			);
+			name = "Unit Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A79A7136126CE88900739A9F /* Four */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A79A7155126CE88900739A9F /* Build configuration list for PBXNativeTarget "Four" */;
+			buildPhases = (
+				A79A7133126CE88900739A9F /* Sources */,
+				A79A7134126CE88900739A9F /* Frameworks */,
+				A79A7135126CE88900739A9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Four;
+			productName = Four;
+			productReference = A79A7137126CE88900739A9F /* Four.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A79A7165126CE8A800739A9F /* FourTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A79A7170126CE8A800739A9F /* Build configuration list for PBXNativeTarget "FourTests" */;
+			buildPhases = (
+				A79A7161126CE8A800739A9F /* Sources */,
+				A79A7162126CE8A800739A9F /* Frameworks */,
+				A79A7163126CE8A800739A9F /* Resources */,
+				A79A7164126CE8A800739A9F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FourTests;
+			productName = FourTests;
+			productReference = A79A7166126CE8A800739A9F /* FourTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A79A712A126CE88800739A9F /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = A79A712D126CE88800739A9F /* Build configuration list for PBXProject "Four" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A79A7128126CE88800739A9F;
+			productRefGroup = A79A7138126CE88900739A9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A79A7136126CE88900739A9F /* Four */,
+				A79A7165126CE8A800739A9F /* FourTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A79A7135126CE88900739A9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79A7144126CE88900739A9F /* InfoPlist.strings in Resources */,
+				A79A714C126CE88900739A9F /* MainWindow.xib in Resources */,
+				A79A7152126CE88900739A9F /* FourViewController.xib in Resources */,
+				A77E59371298868000F39BA9 /* blueButton.png in Resources */,
+				A77E59381298868000F39BA9 /* board_314.png in Resources */,
+				A77E59391298868000F39BA9 /* Default.png in Resources */,
+				A77E593A1298868000F39BA9 /* GrayChip_40.png in Resources */,
+				A77E593B1298868000F39BA9 /* Icon-72.png in Resources */,
+				A77E593C1298868000F39BA9 /* Icon.png in Resources */,
+				A77E593D1298868000F39BA9 /* Icon@2x.png in Resources */,
+				A77E593E1298868000F39BA9 /* iTunesArtwork.png in Resources */,
+				A77E593F1298868000F39BA9 /* RedChip_40.png in Resources */,
+				A77E59401298868000F39BA9 /* whiteButton.png in Resources */,
+				A77E59411298868000F39BA9 /* YellowChip_40.png in Resources */,
+				A77E59421298868000F39BA9 /* backGroundiPhonePortrait.png in Resources */,
+				A77E59431298868000F39BA9 /* chipDrop.wav in Resources */,
+				A77E59441298868000F39BA9 /* resetSound.aif in Resources */,
+				A77E59451298868000F39BA9 /* win.wav in Resources */,
+				A77E59471298868B00F39BA9 /* FourInARowTestBoards.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79A7163126CE8A800739A9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79A716D126CE8A800739A9F /* InfoPlist.strings in Resources */,
+				A77E59481298868B00F39BA9 /* FourInARowTestBoards.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A79A7164126CE8A800739A9F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A79A7133126CE88900739A9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79A7146126CE88900739A9F /* main.m in Sources */,
+				A79A7149126CE88900739A9F /* FourAppDelegate.m in Sources */,
+				A79A714F126CE88900739A9F /* FourViewController.m in Sources */,
+				A79A717A126CE90500739A9F /* FourInARowGame.m in Sources */,
+				9C07D39D126D48E000BE8A35 /* ChipView.m in Sources */,
+				A77E59241298867200F39BA9 /* FourInARowGame.m in Sources */,
+				A77E59251298867200F39BA9 /* FourInARowGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79A7161126CE8A800739A9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79A7181126CE9DB00739A9F /* FourInARowGame.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A79A7142126CE88900739A9F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A79A7143126CE88900739A9F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A79A714A126CE88900739A9F /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A79A714B126CE88900739A9F /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		A79A7150126CE88900739A9F /* FourViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A79A7151126CE88900739A9F /* en */,
+			);
+			name = FourViewController.xib;
+			sourceTree = "<group>";
+		};
+		A79A716B126CE8A800739A9F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A79A716C126CE8A800739A9F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A79A7153126CE88900739A9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Debug;
+		};
+		A79A7154126CE88900739A9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Release;
+		};
+		A79A7156126CE88900739A9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Four_Prefix.pch;
+				INFOPLIST_FILE = "Four-Info.plist";
+				PRODUCT_NAME = Four;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A79A7157126CE88900739A9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Four_Prefix.pch;
+				INFOPLIST_FILE = "Four-Info.plist";
+				PRODUCT_NAME = Four;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A79A716E126CE8A800739A9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FourTests/FourTests_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "FourTests/FourTests-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = FourTests;
+				SDKROOT = macosx10.6;
+				TEST_AFTER_BUILD = YES;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A79A716F126CE8A800739A9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FourTests/FourTests_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "FourTests/FourTests-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = FourTests;
+				SDKROOT = macosx10.6;
+				TEST_AFTER_BUILD = YES;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A79A712D126CE88800739A9F /* Build configuration list for PBXProject "Four" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A79A7153126CE88900739A9F /* Debug */,
+				A79A7154126CE88900739A9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A79A7155126CE88900739A9F /* Build configuration list for PBXNativeTarget "Four" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A79A7156126CE88900739A9F /* Debug */,
+				A79A7157126CE88900739A9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A79A7170126CE8A800739A9F /* Build configuration list for PBXNativeTarget "FourTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A79A716E126CE8A800739A9F /* Debug */,
+				A79A716F126CE8A800739A9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A79A712A126CE88800739A9F /* Project object */;
+}
